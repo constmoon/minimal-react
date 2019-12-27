@@ -1,9 +1,11 @@
-body {
+html, body, div, p, ul, li {
   margin: 0;
   padding: 0;
+}
+
+body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   word-break: keep-all;
-  background-color: #ccc;
 }
 
 code {

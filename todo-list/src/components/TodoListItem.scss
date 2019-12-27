@@ -1,0 +1,31 @@
+.todolist-item {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  .checkbox {
+    flex: 1;
+    align-items: center;
+    cursor: pointer;
+    svg {
+      font-size: 1.3rem;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .text {
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 0.5rem;
+    }
+  }
+  .remove {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    svg {
+      font-size: 1.3rem;
+    }
+  }
+  & + & {
+    border-top: 1px solid #000;
+  }
+}
