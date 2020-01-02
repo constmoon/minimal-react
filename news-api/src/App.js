@@ -1,9 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
+import NewsList from './components/NewsList';
 
 const App = () => {
-  return (
-    <h1>NEWS API</h1>
-  )
+  return <NewsList />;
 };
 
 export default App;
