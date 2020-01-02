@@ -36,7 +36,7 @@ const NewsItemBlock = styled.div`
     const { title, description, url, urlToImage } = article;
     return(
       <NewsItemBlock>
-        {/* TODO: thumbnail 없으면 빈 이미지 불러오기 */}
+        {/* TODO: thumbnail 없으면 빈 이미지 불러오거나 여백 처리 */}
         {urlToImage && (
           <div className="thumbnail">
             <a href={url} target="_blank" rel="noopener noreferrer">
