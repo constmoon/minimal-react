@@ -1,0 +1,11 @@
+{
+  "name": "minimal-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/constmoon/minimal-react",
+  "author": "constmoon <jiiw.kang@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "redux": "^4.0.5"
+  }
+}
